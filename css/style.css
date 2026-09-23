@@ -117,3 +117,14 @@ footer {
   text-align: center;
   background: #eeeeee;
 }
+.feedback-message {
+  margin-top: 16px;
+  padding: 8px 16px;
+  background-color: lightgrey;
+}
+.feedback-message:active {
+  background-color: darkgrey;
+}
+.feedback-message:hover {
+  background-color: gray;
+}
