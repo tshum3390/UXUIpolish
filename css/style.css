@@ -128,3 +128,14 @@ footer {
 .feedback-message:hover {
   background-color: gray;
 }
+.john-message {
+  margin-top: 16px;
+  padding: 8px 16px;
+  background-color: lightgrey;
+}
+.john-message:active {
+  background-color: darkgrey;
+}
+.john-message:hover {
+  background-color: gray;
+}

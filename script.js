@@ -11,13 +11,14 @@ function handleRSVP() {
     }
 
 }
-let count = 4;
-function rsvpCount() {
-        const message = document.createElement("p");
-        message.textContent = "Number: " + count;
-        message.classList.add("count-message");
-        const countButton = document.getElementById("countBtn");
-        countButton.after(message);
-        count += 1
-
+let bio = 1;
+function handleBio() {
+    if (bio == 1){
+        const bioMessage = document.createElement("p");
+        bioMessage.textContent = "John's name is John. He is a club officer. He won Club officer of the Month.";
+        bioMessage.classList.add("john-message");
+        const bioButton = document.getElementById("bioBtn");
+        bioButton.after(bioMessage);
+        bio = 2;
+    }
 }
